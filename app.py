@@ -10,7 +10,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 # Titolo dell'app
-st.title("ERIN: Assistente di behavioral profiling.")
+st.title("ERIN - Assistente di behavioral profiling.")
 
 #if st.button("Inizia"):
 genre = st.radio(
